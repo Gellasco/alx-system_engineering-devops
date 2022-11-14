@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # Prints "Holberton School" 10x, "bad luck" the 4th, "good luck" the 8th
 
 i=1
@@ -8,7 +9,7 @@ do
     elif [ "$i" -eq 8 ]; then
 	echo "good luck"
     else
-	echo "Best School"
+	echo "Holberton School"
     fi
     (( i++ ))
 done
